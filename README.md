@@ -11,7 +11,7 @@ Implemented model was trained on MNIST dataset and it outperformed keras+tensorf
 It's very strange, but I didn't find an error in my code at the moment.
 
 ## My model train/test results:
-
+```
 epoch: 0, train_acc=0.49614094705, train_loss=1.41596842708, test_accuracy=0.8375
 epoch: 1, train_acc=0.844954912935, train_loss=0.50296318476, test_accuracy=0.8908
 epoch: 2, train_acc=0.890680525942, train_loss=0.364993919197, test_accuracy=0.9188
@@ -33,9 +33,9 @@ epoch: 17, train_acc=0.96650119936, train_loss=0.106084837919, test_accuracy=0.9
 epoch: 18, train_acc=0.96914978678, train_loss=0.0995051852615, test_accuracy=0.9734
 epoch: 19, train_acc=0.969893834399, train_loss=0.0959316519439, test_accuracy=0.9735
 accuracy of my model: 0.9735
-
+```
 ## keras+tensorflow train/test results
-
+```
 Train on 60000 samples, validate on 10000 samples
 Epoch 1/40
 60000/60000 [==============================] - 8s - loss: 2.2651 - acc: 0.1625 - val_loss: 1.9281 - val_acc: 0.4522
@@ -117,3 +117,4 @@ Epoch 39/40
 60000/60000 [==============================] - 9s - loss: 0.2244 - acc: 0.9319 - val_loss: 0.1828 - val_acc: 0.9447
 Epoch 40/40
 60000/60000 [==============================] - 8s - loss: 0.2206 - acc: 0.9327 - val_loss: 0.1797 - val_acc: 0.9471
+```
